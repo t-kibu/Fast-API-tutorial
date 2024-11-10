@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "FastAPI Tutorial"
+version = "1"
+description = "hoge"
+authors = ["Kei Shitika <shitika.en@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.13.0"
+fastapi = "^0.115.2"
+uvicorn = "^0.32.0"
+email-validator = "^2.2.0"
+sqlalchemy = "^2.0.36"
+passlib = "^1.7.4"
+pyjwt = "^2.9.0"
+bcrypt = "^4.2.0"
+sqlmodel = "^0.0.22"
+httpx = "^0.27.2"
+pytest = "^8.3.3"
+multipart = "^1.1.0"
